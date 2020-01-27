@@ -39,6 +39,7 @@ int main()
     player player(100,262,20,1);
 
     char wall=219;
+    char char_enemy=271;
     vector <bullet> bullets;
     vector <enemy> enemies;
     int tick=0;
@@ -118,7 +119,12 @@ int main()
             cout<<wall;
             for(int a=0; a<map_width; a++)
             {
+                if(mapa[a][b]==char_enemy)
+                    color(12);
+                if(mapa[a][b]=='^')
+                    color(10);
                 cout<<mapa[a][b];
+                color(15);
             }
             cout<<wall;
             cout<<endl;

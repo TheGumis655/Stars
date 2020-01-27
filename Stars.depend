@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1580116794 source:e:\programowanie\c++\games\stars\main.cpp
+	<iostream>
+	<windows.h>
+	<vector>
+	"player.hpp"
+	"functions.hpp"
+	"bullet.hpp"
+	"enemy.hpp"
+
+1580115613 source:e:\programowanie\c++\games\stars\src\player.cpp
+	"player.hpp"
+	"bullet.hpp"
+	"enemy.hpp"
+	<windows.h>
+	<iostream>
+	<random>
+
+1580115568 e:\programowanie\c++\games\stars\include\player.hpp
+	<vector>
+	<iostream>
+	"bullet.hpp"
+	"enemy.hpp"
+
+1580151360 e:\programowanie\c++\games\stars\include\functions.hpp
+
+1580151366 source:e:\programowanie\c++\games\stars\src\functions.cpp
+	"functions.hpp"
+	<windows.h>
+
+1580113758 source:e:\programowanie\c++\games\stars\src\bullet.cpp
+	"bullet.hpp"
+	<vector>
+
+1580112831 e:\programowanie\c++\games\stars\include\bullet.hpp
+	<vector>
+
+1580115811 source:e:\programowanie\c++\games\stars\src\enemy.cpp
+	"enemy.hpp"
+	"player.hpp"
+	<vector>
+
+1580115805 e:\programowanie\c++\games\stars\include\enemy.hpp
+	<vector>
+

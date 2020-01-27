@@ -15,3 +15,8 @@ void hidecursor()
    info.bVisible = FALSE;
    SetConsoleCursorInfo(consoleHandle, &info);
 }
+
+void color(int color){
+HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+SetConsoleTextAttribute(hConsole, color);
+}
